@@ -14,7 +14,7 @@ def getHTMLText(url):
         print('访问失败')
 
 
-# 对页面进行解析
+# 对页面进行解析，从商品页面中获取商品的名称和价格
 def parsePage(ilt, html):
     soup = BeautifulSoup(html, 'html.parser')
 
